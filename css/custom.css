@@ -3,3 +3,7 @@ p.small, .p.small {
     line-height: 1.36;
     margin-bottom: 20px;
 }
+
+.featureHeader ul li {
+    text-align: right;
+}
