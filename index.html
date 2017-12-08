@@ -455,39 +455,45 @@
 </section>
 <!--Popup video-->
 <!--<div class="popup autoplay" data-popup-id="16-0">-->
-    <!--<div class="close">-->
-        <!--<svg>-->
-            <!--<use xmlns:xlink="http://www.w3.org/1999/xlink"-->
-                 <!--xlink:href="https://designmodo.com/slides/app/?slides%5B%5D=36&amp;whiteSlide%5B%5D=36&amp;slides%5B%5D=61&amp;whiteSlide%5B%5D=61&amp;slides%5B%5D=16&amp;whiteSlide%5B%5D=16&amp;effect=&amp;speed=&amp;animated=auto&amp;easing=&amp;horizontal=0&amp;smoothScroll=&amp;navigation=default&amp;navigation-position=&amp;navigation-style=&amp;navigation-size=&amp;navigation-stroke=&amp;preloader=0&amp;preloader=1&amp;svg=1&amp;minify=1#close"></use>-->
-        <!--</svg>-->
-    <!--</div>-->
-    <!--<div class="content">-->
-        <!--<div class="container">-->
-            <!--<div class="wrap">-->
-                <!--<div class="fix-10-12">-->
-                    <!--<div class="embedVideo popupContent">-->
-                        <!--<iframe src="https://youtu.be/I6YhfQf2m1w?rel=0"-->
-                                <!--frameborder="0" webkitallowfullscreen="" mozallowfullscreen=""-->
-                                <!--allowfullscreen=""></iframe>-->
-                    <!--</div>-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
+<!--<div class="close">-->
+<!--<svg>-->
+<!--<use xmlns:xlink="http://www.w3.org/1999/xlink"-->
+<!--xlink:href="https://designmodo.com/slides/app/?slides%5B%5D=36&amp;whiteSlide%5B%5D=36&amp;slides%5B%5D=61&amp;whiteSlide%5B%5D=61&amp;slides%5B%5D=16&amp;whiteSlide%5B%5D=16&amp;effect=&amp;speed=&amp;animated=auto&amp;easing=&amp;horizontal=0&amp;smoothScroll=&amp;navigation=default&amp;navigation-position=&amp;navigation-style=&amp;navigation-size=&amp;navigation-stroke=&amp;preloader=0&amp;preloader=1&amp;svg=1&amp;minify=1#close"></use>-->
+<!--</svg>-->
+<!--</div>-->
+<!--<div class="content">-->
+<!--<div class="container">-->
+<!--<div class="wrap">-->
+<!--<div class="fix-10-12">-->
+<!--<div class="embedVideo popupContent">-->
+<!--<iframe src="https://youtu.be/I6YhfQf2m1w?rel=0"-->
+<!--frameborder="0" webkitallowfullscreen="" mozallowfullscreen=""-->
+<!--allowfullscreen=""></iframe>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
 <!--</div>-->
 <div class="popup autoplay" data-popup-id="16-0">
-  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://designmodo.com/slides/app/?slides%5B%5D=16&amp;whiteSlide%5B%5D=&amp;effect=&amp;speed=&amp;animated=auto&amp;easing=&amp;horizontal=0&amp;smoothScroll=&amp;navigation=default&amp;navigation-position=&amp;navigation-style=&amp;navigation-size=&amp;navigation-stroke=&amp;preloader=0&amp;preloader=1&amp;svg=1&amp;minify=1#close"></use></svg></div>
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-        <div class="fix-10-12">
-          <div class="embedVideo popupContent">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/I6YhfQf2m1w?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
+    <div class="close">
+        <svg>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="https://designmodo.com/slides/app/?slides%5B%5D=16&amp;whiteSlide%5B%5D=&amp;effect=&amp;speed=&amp;animated=auto&amp;easing=&amp;horizontal=0&amp;smoothScroll=&amp;navigation=default&amp;navigation-position=&amp;navigation-style=&amp;navigation-size=&amp;navigation-stroke=&amp;preloader=0&amp;preloader=1&amp;svg=1&amp;minify=1#close"></use>
+        </svg>
     </div>
-  </div>
+    <div class="content">
+        <div class="container">
+            <div class="wrap">
+                <div class="fix-10-12">
+                    <div class="embedVideo popupContent">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/I6YhfQf2m1w?rel=0"
+                                frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <!-- Slide 2 (Only a few do it right) -->
@@ -990,10 +996,13 @@
                         <!--<button class="popupTrigger button uppercase indigo crop wide ae-7" data-popup-id="unique-id">-->
                         <!--Sign up-->
                         <!--</button>-->
-                        <a href="https://eventmarketingtool.com/site/auth?authclient=facebook"
+                        <a id="submitButton" href="https://eventmarketingtool.com/site/auth?authclient=facebook"
                            class="button uppercase indigo crop wide ae-7">
                             Sign up
                         </a>
+                        <script type="text/javascript">
+                            $('#$submitButton').click(function () {fbq('track', 'Lead');})
+                        </script>
                     </div>
                 </div>
 
