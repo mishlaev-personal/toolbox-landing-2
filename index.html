@@ -22,6 +22,8 @@
 
     <!-- Page Title -->
     <title>Event Marketing Toolbox</title>
+    
+    <link rel="amphtml" href="https://eventmarketingtool.com/hello/amp.html">
 
     <!-- Fonts and Material Icons -->
     <link href="https://fonts.googleapis.com/css?family=Chivo:200,300,400,600,700,900|Material+Icons"
@@ -297,9 +299,9 @@
                         </li>
                         <li class="col-5-12 cell-28 ae-4">
                             <div class="videoThumbnail ae-4 fromCenter popupTrigger done" data-popup-id="1-0">
-                                <img class="wide" src="assets/img/facebook_event.jpg" alt="Promoting Facebook Events">
+                                <img class="wide" src="assets/img/facebook_event.jpg"
+                                alt="Promoting Facebook Events">
                             </div>
-                            <!--<img src="assets/img/facebook_event.jpg" class="iphone-28" alt="Promoting Facebook Events"/>-->
                         </li>
                     </ul>
                 </div>
@@ -427,9 +429,6 @@
                 <div class="fix-12-12">
                     <ul class="flex reverse">
                         <li class="col-6-12 left ae-1 done">
-                            <!--<img class="macbook-61 margin-bottom-3" data-action="zoom" width="1200"-->
-                            <!--src="assets/img/macbook-dashboard.png"-->
-                            <!--alt="Event Dashboard"/>-->
                             <div class="videoThumbnail ae-4 fromCenter popupTrigger done" data-popup-id="16-0">
                                 <img class="wide" src="assets/img/3-2_Ads_Ideas.jpg" alt="What is Ad Ideas">
                             </div>
@@ -682,7 +681,6 @@
             </div>
         </div>
     </div>
-    <!--<div class="background" style="background-image:url(assets/img/crowd.jpg)"></div>-->
 </section>
 
 
@@ -995,9 +993,6 @@
                            class="button uppercase indigo crop wide ae-7">
                             Sign up
                         </a>
-                        <script type="text/javascript">
-                            $('#$submitButton').click(function () {fbq('track', 'Lead');})
-                        </script>
                     </div>
                 </div>
 
@@ -1026,5 +1021,10 @@
     </svg>
 </div>
 
+<script type="text/javascript">
+$('#submitButton').click(function() {
+  fbq('track', 'Lead');
+});
+</script>
 </body>
 </html>
