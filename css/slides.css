@@ -5098,7 +5098,7 @@ body {
 }
 
 .indigo {
-  background: #3F51B5 !important;
+  background: #4267B2 !important;
   color: #fff !important;
 }
 .indigo svg {
@@ -5106,18 +5106,18 @@ body {
 }
 
 .text-indigo {
-  color: #3F51B5 !important;
+  color: #4267B2 !important;
 }
 .text-indigo.button svg {
-  fill: #3F51B5 !important;
+  fill: #4267B2 !important;
 }
 
 .stroke.button.indigo {
-  color: #3F51B5 !important;
-  border-color: #3F51B5 !important;
+  color: #4267B2 !important;
+  border-color: #4267B2 !important;
 }
 .stroke.button.indigo svg {
-  fill: #3F51B5 !important;
+  fill: #4267B2 !important;
 }
 
 .blue {
